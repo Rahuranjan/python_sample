@@ -1,0 +1,397 @@
+HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 1 | Telegram channel - https://t.me/the_rising_engineers  JAVA INTERVIEW  
+CHECKLIST  FOR 2023  
+(TOP 150 Questions  & Answers)   
+SAVE AND SHARE  
+ 
+Table of content - 
+➢ Object Oriented Programming (OOP)  
+➢ General Questions about  Java  
+➢ Java Threads  
+➢ Java Collections  
+➢ Garbage Collectors  
+➢ Exception Handling  
+➢ Java Applets  
+➢ Swing  
+➢ JDBC  
+➢ Remote Method Invocation (RMI)  
+➢ Servlets  
+➢ JSP 
+________________________________________________________________  
+HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri  
+Telegram channel - https://t.me/the_rising_engineers  
+ 
+HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 2 | Telegram channel - https://t.me/the_rising_engineers  Object Oriented Programming (OOP)  
+1. What is Java?  
+Java is a computer programming language that is concurrent, 
+class-based and object -oriented. The advantages of object -
+oriented software development are shown below:  
+• Modular development of code, which leads to easy 
+maintenance and modification.  
+• Reusability of code.  
+• Improved reliability and flexibility of code.  
+• Increased understanding of code.  
+2. What are the concepts of OOP?  
+Object Oriented Programming (OOP) includes:  
+• Abstraction  
+• Encapsulation  
+• Polymorphism  
+• Inheritance  
+• Predefined types must be objects  
+• User de fined types must be objects  
+• Operations must be performed by sending messages to 
+objects  
+3. Mention some features of Java  
+Some of the features which play important role in the 
+popularity of java are as follows:  
+• Object -Oriented  
+• Platform independent  
+• High Performance  
+• Multithreaded  
+• Portable  HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 3 | Telegram channel - https://t.me/the_rising_engineers  • Secure  
+4. Is Java 100% Object -oriented?  
+Not 100%. Java does not satisfy all the OOP conditions 
+(predefined types must be objects) because it uses eight 
+primitive data types(Boolean, byte, char, int, float, double, 
+long, short) which are not objects.  
+5. What is Abstraction?  
+Abstraction  is the process of separating ideas from specific 
+instances and thus, develop classes in terms of their own 
+functionality, instead of their implementation details. Java  
+supports the creation and existence of abstract classes that expose interfaces, without 
+including the actual implementation of all methods. The abstraction technique aims to 
+separate the implementation details of a class from its behavior.  
+6. What is Encapsulation?  
+Encapsulation  provides objects with the ability to hide their 
+internal characteristics and behavior. Each object provides a 
+number of methods, which can be accessed by other objects 
+and change its internal data. In Java, there are three access 
+modifiers: public, private  and protected. Each modifier imposes 
+different access rights to other classes, either in the same or in 
+external packages. Some of the advantages of using 
+encapsulation are listed below:  
+• The internal state of every object is protected by hiding 
+its attrib utes. 
+• It increases usability and maintenance of code, because 
+the behavior of an object can be independently changed 
+or extended.  
+• It improves modularity by preventing objects to interact 
+with each other, in an undesired way.  
+ HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 4 | Telegram channel - https://t.me/the_rising_engineers  7. What are the differences between 
+Abstraction and Encapsulation?  
+Abstraction and encapsulation are complementary concepts. On 
+the one hand, abstraction focuses on the behavior of an object. 
+On the other hand, encapsulation focuses on the 
+implementation o f an object’s behavior. Encapsulation is usually 
+achieved by hiding information about the internal state of an 
+object and thus, can be seen as a strategy used in order to 
+provide abstraction.  
+8. What is Polymorphism?  
+Polymorphism  is the ability of programming languages to 
+present the same interface for differing underlying data types. 
+A polymorphic type is a type whose operations can also be  
+applied to values of some other type.  
+You can see the example below where Vehicle interface has the 
+method increaseVelocity. Truck, Train and Aeroplane 
+implement the Vehicle Interface and the method increases the 
+velocity to the appropriate velocity relat ed to the vehicle type.  
+ 
+9. What are the types of Polymorphism?  
+There are two types of Polymorphism in Java:  
+• Compile -time polymorphism (Static binding) – Method 
+overloading  
+• Runtime polymorphism (Dynamic binding) – Method 
+overriding  
+ 
+ 
+ 
+ 
+ 
+ HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 5 | Telegram channel - https://t.me/the_rising_engineers  We can perform polymorphism by Method Overloading and 
+Method Overriding.  
+Compile  Time  Runtime  
+Methods of a class have the 
+same name. Each method has a 
+different number of parameters . 
+It can have parameters with 
+different types and order.  the subclass has method with the name 
+as of a superclass method. It has the 
+number of paramers, type of 
+parameters and the return type as of a 
+superclass method.  
+Method Overloading is to add to 
+the method behavior. It can be 
+extending to the method’s 
+behavior.  Method Overriding is to modify the 
+method’s behavior .  
+Overloaded methods will not 
+have same signature.  Overridden methods will have exactly 
+the same signat ure. 
+Inheritance is not need in this 
+case.  Inheritance is reuqired.  
+10. What is Inheritance?  
+Inheritance  provides an object with the ability to acquire the 
+fields and methods of another class, called base class. 
+Inheritance provid es reusability of code and can be used to add 
+additional features to an existing class, without modifying it.  
+11. What is composition?  
+Composition  is exactly like Aggregation except that the lifetime 
+of the ‘part’ is controlled by the ‘whole’. This control may be 
+direct or transitive. That is, the ‘wh ole’ may take direct 
+responsibility for creating or destroying the ‘part’, or it may 
+accept an already created part, and later pass it on to some 
+other whole that assumes responsibility for it.  
+12. What is an association?  HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 6 | Telegram channel - https://t.me/the_rising_engineers  Association represents the ability of one instance to send a 
+message to another instance. This is typically implemented 
+with a pointer or reference instance variable, although it might 
+also be implemented as a method argument or the creation of 
+a local var iable.  
+13. What is aggregation?  
+Aggregation is the typical whole/part relationship. This is 
+exactly the same as an association with the exception that 
+instances cannot have cyclic aggregation relationships.  
+ 
+ 
+ 
+Curated By -  
+HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri  
+DOWNLOAD TH E COMPLETE PDF 
+WITH ANSWERS FROM MY 
+TELEGRAM CHANNEL NOW - 
+https://t.me/the_rising_engineers  
+ 
+ 
+ 
+ 
+HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 7 | Telegram channel - https://t.me/the_rising_engineers  General Questions about Java  
+14. What is JVM?  
+15. Why is Java called the Platform 
+Independent Programming Language?  
+16. What is the Difference between JDK and 
+JRE?  
+The Java Runtime Environment (JRE) is basicall y the Java Virtual 
+Machine (JVM) where your Java programs are being executed. It also 
+includes browser plugins for applet execution. The Java Development Kit 
+(JDK) is the full -featured Software Development Kit for Java, including 
+the JRE, the compilers and  tools (lik e JavaDoc , and Java Debugger ), in 
+order for a user to develop, compil e and execute Java applications.  
+ 
+17. What does the static keyword mean?  JDK JRE 
+JDK stands for the 
+term : Java 
+Development Kit.  JRE stands for the term: Java Runtime 
+Environment.  
+JDK is the tool for 
+compilng, 
+documenting and 
+packaging Java 
+software.  JRE is a runtime environment. JavaByte 
+code  gets executed in the environment.  
+JDK has JRE and 
+development tools.  JRE is a JVM implementation  HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 8 | Telegram channel - https://t.me/the_rising_engineers  The static keyword denotes that a member variable or method can be 
+accessed, without requiring an instantiation of the class to which it 
+belongs.  
+ 
+ 18. Can you override private or static method 
+in Java?  
+A user cannot overrid e static methods  in Java, because method 
+overriding is based upon dynamic binding at runtime and static methods 
+are statically bound at compile time. A static method is not associated 
+with any instance of a class so the concept is not applicable.  
+19. Can you access the non -static  variable in 
+static context?  
+A static variable in Java belongs to its class and its value remains the 
+same for all its instances. A static variable is initialized when the class is 
+loaded by the JVM. If your code tries to access a non -static variable, 
+without any instance, the compiler will complain, because those 
+variables are not created yet and they are not associated with any 
+instance.  
+20. What are the Data Types supported by 
+Java?  
+The eight primitive data types supported by the Java programming 
+languag e are:  
+• byte 
+• short 
+• int 
+• long 
+• float 
+• double  
+• boolean  
+• char 
+ 
+ HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 9 | Telegram channel - https://t.me/the_rising_engineers  21. What is Autoboxing and Unboxing?  
+Autoboxing is th e automatic  conversion  made  by the Java 
+compiler  between the primitive types and their corresponding object 
+wrapper classes. For example, the compiler converts an int to 
+an Integer , a double to a Double , and so on. If the conversion goes the 
+other way, this operation is called unboxing.  
+22. What is Function Overriding and 
+Overloading in Java?  
+Method overloading in Java occurs when two or more methods in the 
+same class have the exact same name, but different parameters. On the 
+other hand, method overriding is defined as the case when a child class 
+redefines the same method as a parent class. Ove rridden methods must 
+have the same name, argument list, and return type. The overriding 
+method may not limit the access of the method it overrides.  
+23. What is a Constructor?  
+A constructor gets invoked when a new object is created. Every 
+class has a constructor . In case the programmer does not provide a 
+constructor for a class, the Java compiler (Javac) creates a default 
+constructor for that class.  
+24. What is Constructor Overloading?  
+The constructor overloading is similar to method overloading in Java. 
+Different constructors can be created for a single class. Each constructor 
+must have its own unique parameter list.  
+25. What is Copy -Constructor?  
+Finally, Java does support copy constructors like C++, but the difference 
+lies in the fact that Java does not create a default copy constructor if 
+you do not write your own.  
+26. Does Java support multiple inheritance?  HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 10 | Telegram channel - https://t.me/the_rising_engineers  No, Java does not support multiple inheritance. Each class is able to 
+extend only on one class but is able to implement more than one 
+interfaces.  
+27. What is the difference between an Interface 
+and an Abstract class?  
+Java provides and supports the creation of both th e abstract  classes  and 
+interfaces. Both implementations share some common characteristics, 
+but they differ in the following features:  
+• All methods in an interface are implicitly abstract. On the other hand, an 
+abstract class may contain both abstract and non -abstract methods.  
+• A class may implement a number of Interfaces but can extend only one 
+abstract class.  
+• In order for a class to implement an interface, it must implement all its 
+declared methods. However, a class may not implement all declared 
+methods of an abstract class. Though, in this case, the sub -class must also 
+be declared as abstract.  
+• Abstract classe s can implement interfaces without even providing the 
+implementation of interface methods.  
+• Variables declared in a Java interface is by default final. An abstract class 
+may contain non -final variables.  
+• Members of a Java interface are public by default. A m ember of an 
+abstract class can either be private, protected or public.  
+• An interface is absolutely abstract and cannot be instantiated. An abstract 
+class also cannot be instantiated but can be invoked if it contains the main 
+method.  
+ 
+Interface  Abstract  Class  
+An interface has the method 
+signatures. It does not have 
+any implementatio n. Abstract class has the abstract 
+methods and details to be 
+overridden.  
+A Class can implement 
+multiple interfaces  In this case, a class can extend just 
+one abstract class  
+Interface has all abstract 
+methods.  Non abstract methods can be there 
+in an abstract class.  HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 11 | Telegram channel - https://t.me/the_rising_engineers  Instance properties cannot be 
+there in an interface.  Instance properties can be there in 
+an abstract class.  
+An Interface is publicly visible 
+or not visible.  An abstract class can be public, 
+private and protected visibile.  
+Any change in the interface will 
+impact the classes 
+implementing the interface.  Adding a method to an abstract class 
+and implementing it does not require 
+change in the code for derived 
+classes.  
+An Interface cannot have 
+constructor s An abstract class can have 
+constructors  
+Interfaces are slow in terms of 
+performance  Abstract classes are fast in execution 
+of the methods in the derived 
+classes.  
+28. What are pass by reference and pass by 
+value?  
+When an object is passed by value, this means that a copy of the object 
+is passed. Thus, even if changes are made to that object, it does not 
+affect the original value. When an object is passed by reference, this 
+means that the actual object is not passed, rather a reference of the 
+object is pas sed. Thus, any changes made by the external method, are 
+also reflected in all places.  
+29. What is the purpose of a Volatile Variable?  
+Volatile  variable values can be modified by different threads. They will 
+never have the chance to block and hold a lock. Synchronization will 
+happen whenever the variables are accessed. Using volatile may be 
+faster than a lock, but it will not work in some situatio ns. The range of 
+situations in which volatile is effective was expanded in Java 5; in 
+particular, double -checked locking now works correctly.  HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 12 | Telegram channel - https://t.me/the_rising_engineers  30. What is the purpose of a Transient 
+variable?  
+A transient variable would not be serialized even if the class to which it 
+belongs is serialized.  
+31. What is Local Variable and Instance 
+Variable?  
+Local  variable  Instance  variable  
+Local variable is declared inside 
+a method or constructor. It can 
+be declared within a block  Instance variable is declared 
+inside a class.  
+Local variable need to be 
+initialized before use. The code 
+will not compile.   
+Instance variable initialization is 
+not necessary. If not initialized, 
+default value is used . 
+32. What are the different access modifiers 
+available in Java?  
+33. Difference between static binding and 
+dynamic binding  
+Static  Binding  Dynamic  Binding  
+Definition of a procedure is 
+related to static binding  An example for dynamic binding is 
+activation of a procedure  
+Declaration of a name for a 
+variable is done to bind 
+statically the variable.  Binding of a name can be dynamic 
+bound.  HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri   
+ 
+ pg. 13 | Telegram channel - https://t.me/the_rising_engineers  The Scope of the declaration is 
+statically bound.  Lifetime of a binding is 
+dynamically bound.  
+34. What are wrapper classes?  
+A wrapper class converts java primitives into objects. So a primitive 
+wrapper class is a wrapper class that encapsulates, hides or wraps data 
+types from the eight primitive data types so that these can be used to 
+create instan tiated objects with methods in another class or in other 
+classes. The primitive wrapper classes are found in the Java API.  
+ 
+ 
+35. What is singleton class and how can we 
+make a class singleton?  
+In a singleton class we:  
+• ensure that only one instance of the sing leton class ever exists  
+• provide global access to that instance  
+To create a singleton class we:  
+• declare all constructors of the class as private  
+• provide a static method that returns a reference to the instanc e 
+ 
+Curated By -  
+HIMANSHU KUMAR(LINKEDIN)  http://www.linkedin.com/in/himanshukumarm ahuri  
+DOWNLOAD TH E COMPLETE PDF 
+WITH ANSWERS FROM MY 
+TELEGRAM CHANNEL NOW - 
+https://t.me/the_rising_engineers  
